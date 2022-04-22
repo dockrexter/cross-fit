@@ -2,11 +2,11 @@
   "expo": {
     "name": "crossFit-Bolzano",
     "slug": "crossFit-Bolzano",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/playstore.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/crossfitLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crossfitbolzano.crossFit-bolzano",
+      "buildNumber": "1.1.2"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.crossfit.crossFitBolzano",
+      "versionCode":2
     },
     "web": {
       "favicon": "./assets/favicon.png"
